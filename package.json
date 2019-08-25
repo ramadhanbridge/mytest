@@ -1,0 +1,23 @@
+{
+  "name": "adc",
+  "version": "1.0.0",
+  "description": "andela challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramadhanbridge/mytest.git"
+  },
+  "keywords": [
+    "my",
+    "test"
+  ],
+  "author": "ramadhan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ramadhanbridge/mytest/issues"
+  },
+  "homepage": "https://github.com/ramadhanbridge/mytest#readme"
+}
