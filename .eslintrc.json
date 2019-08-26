@@ -14,6 +14,7 @@
         "sourceType": "module"
     },
     "rules": {
-        "semi-spacing":"error"
+        "semi-spacing":"error",
+        "no-console":"off"
     }
 }
