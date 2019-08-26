@@ -1,16 +1,20 @@
-
 import express from 'express';
+import PORT from './config/port';
+import adminroute from './routes/admin';
+import mentorroute from './routes/mentor';
+import menteeroute from './routes/mentee';
+import authroute from './routes/Auth';
+import not_found from './routes/default';
 
 const app = express();
 
-app.use(express.json());
+// routers that will be used
 
-app.get('/', (req, res) => res.status(200).send({ message: 'YAY! Congratulations! Your first endpoint is working' }));
-const man = () => hi;
+app.use('/api/v1', authroute);
+app.use('/api/v1', adminroute);
+app.use('/api/v1', mentorroute);
+app.use('/api/v1', menteeroute);
+app.use(not_found);
 
-app.listen(5000);
-console.log('app running on port ', 5000);
-console.log(
-  '300',
-);
-const ma = () => hi;
+// start server
+app.listen(PORT, () => console.log(`server started on PORT ${PORT}`));
