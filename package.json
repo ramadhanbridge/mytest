@@ -24,7 +24,7 @@
   "homepage": "https://github.com/ramadhanbridge/mytest#readme",
   "dependencies": {
     "@babel/polyfill": "^7.4.4",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "moment": "^2.24.0",
     "uuid": "^3.3.3"
   },
